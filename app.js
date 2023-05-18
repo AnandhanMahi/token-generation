@@ -15,9 +15,6 @@ mongoose.connect('mongodb://localhost/blackListToken');
 
 tokenModel = require('./models/tokenModel');
 
-
-
-
 var app = express();
 
 // view engine setup
